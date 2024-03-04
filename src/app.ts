@@ -1,5 +1,5 @@
 import { argv } from './config/plugins';
-import { ServerApp } from './presentation/server-app';
+import { ServerApp } from './presentation';
 
 
 (async () => {
