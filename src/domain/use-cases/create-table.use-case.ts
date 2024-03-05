@@ -1,6 +1,6 @@
 export interface CreateTableOptions {
-    base: number;
-    limit: number;
+    base   : number;
+    limit? : number;
 }
 
 export interface CreateTableUseCase {
@@ -10,7 +10,7 @@ export interface CreateTableUseCase {
 export class CreateTable implements CreateTableUseCase{
     constructor() {}
 
-    execute({ base, limit }: CreateTableOptions): string {
+    execute({ base, limit = 10 }: CreateTableOptions): string {
 
         let bodyMessage = '';
         const headerMessage: string = 
