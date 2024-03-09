@@ -1,4 +1,4 @@
-import { CreateTable, SaveFile } from "../domain/use-cases";
+import { CreateTable, SaveFile } from "../domain";
 
 export interface runOptions {
     base       : number;

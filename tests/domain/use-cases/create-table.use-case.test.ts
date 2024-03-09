@@ -1,4 +1,4 @@
-import { CreateTable } from '../../../src/domain/use-cases';
+import { CreateTable } from '../../../src/domain';
 
 describe('CreateTableUseCase', () => {
 
