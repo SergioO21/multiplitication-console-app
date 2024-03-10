@@ -1,7 +1,7 @@
 
 const runCommand = async( args: string[] ) => {
     process.argv = [ ...process.argv, ...args ];
-    const { argv } = await import('../../../src/config/plugins');
+    const { argv } = await import('../../../../src/config/plugins');
 
     return argv;
 }

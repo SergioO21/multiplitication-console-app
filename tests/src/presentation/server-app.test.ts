@@ -1,6 +1,6 @@
 import fs from "fs";
-import {CreateTable, SaveFile} from "../../src/domain";
-import {ServerApp} from "../../src/presentation";
+import {CreateTable, SaveFile} from "../../../src/domain";
+import {ServerApp} from "../../../src/presentation";
 
 describe('Server App', () => {
 

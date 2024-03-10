@@ -1,6 +1,5 @@
 import fs from "fs";
-import {SaveFile} from "../../../src/domain";
-import {mkdirSync} from "node:fs";
+import {SaveFile} from "../../../../src/domain";
 
 describe('SaveFileUseCase', () => {
 
