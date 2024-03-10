@@ -1,11 +1,11 @@
 import { CreateTable, SaveFile } from "../domain";
 
 export interface runOptions {
-    base       : number;
-    fileName?  : string;
-    filePath?  : string;
-    limit?     : number;
-    showTable? : boolean;
+    base      : number;
+    fileName  : string;
+    filePath  : string;
+    limit     : number;
+    showTable : boolean;
 }
 
 export class ServerApp {
@@ -24,7 +24,7 @@ export class ServerApp {
 
         wasCreated
             ? console.log('\nFile was created!')
-            : console.log('\nFile was not created!');
+            : console.error('\nFile was not created!');
     }
 
 }
